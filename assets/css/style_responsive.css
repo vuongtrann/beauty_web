@@ -1,0 +1,249 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* PC, Ipad Pro */
+@media (min-width : 1024px){
+    .list-service {
+        margin-top: 50px;
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+    .item-service ul{
+        justify-content: center;
+    }
+    .item-service li {
+        margin: 0px 20px;
+    }
+    
+
+}
+
+
+/* Tablet */
+@media(min-width: 768px ) and (max-width : 1023px){
+
+ 
+.list-service {
+    margin-top: 50px;
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .item-service {
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .list-service .item {
+        width: 180px;
+        height: 370px;
+        background-color: rgba(245, 245, 220, 0.911);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .list-service .description {
+        padding: 0 10px 10px 10px;
+        font-size: 13px;
+    }
+
+
+    .item-service .plasma-description {
+        padding: 0 20px;
+        font-size: 20px;
+        color: #4a512e;
+    }
+
+    .fb-img img {
+        height: 80%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .fb-img {
+        display: flex;
+        height: 500px;
+        margin-right: 100px;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+  
+
+
+    #footer{
+
+    }
+
+    .map {
+        width: 60%;
+        height: 300px;
+    }
+
+}
+
+
+
+
+
+/* Mobile */
+
+@media(max-width : 767px){
+    html{
+    
+        height: 100%;
+        width: 100%;
+        
+          
+    }
+
+    #main{
+        width: 100%;
+    }
+
+
+
+    .service .service-title {
+        margin-top: 50px;
+        font-size: 30px;
+        color: rgb(78 68 11);
+        font-weight: 600;
+    }
+
+    .list-service {
+        margin-top: 50px;
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+        .item-service ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .list-service .description {
+            font-size: 13px;
+        }
+
+        .item-service li {
+            padding: 10px;
+            width: 50%;
+        }
+    
+
+
+        .item-service .plasma-description {
+            font-size: 16px;
+        }
+
+
+        .plasma-slide {
+            width: 100vw;
+            padding: 5px 10px;
+        }
+
+        
+        .list-service .item {
+            width: 100%;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+        .fb-header {
+            font-size:  28px;
+        }
+
+        .fb-content {
+            display: block;
+            justify-content: center;
+        }
+
+
+        .slide-fb {
+            height: 500px;
+            width: auto;
+            margin-left: 0px;
+        }
+
+        
+
+        .fb-img {
+            padding: 0px 5px;
+            width: 100vw;
+        }
+
+
+    
+
+        
+    .fb-img img {
+        height: 80%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .fb-img {
+        display: flex;
+        height: 500px;
+        margin-right: 100px;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+  
+
+
+
+
+
+    #footer {
+        display: block;
+        height: auto;
+        padding: 0;
+    }
+
+
+    .item-footer{
+        padding: 10px;
+        margin: 0;
+    }
+    
+
+    .map {
+        width: auto;
+        height: 300px;
+    }
+
+
+
+
+
+}
